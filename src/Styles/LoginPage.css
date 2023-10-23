@@ -1,0 +1,62 @@
+.LoginPage {
+    text-align: center;
+    background-color: #282c34;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+.logincenterdiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 45%;
+    background-color: #383c43;
+    color: orange;
+    font-size: 40px;
+}
+.loginTitle{
+    width: 30%;
+    height: 20%;
+    color: orange;
+}
+.logintext {
+    margin-top: 5%;
+    color: orange;
+    font-size: 40px;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .login-button {
+    background-color: orange;
+    color: #383c43;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 30px;
+  }
+  
+  .login-button:hover {
+    background-color: #ff7f00;
+  }
+
+  .login-form {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin: 25px;
+  }
+  
+  .form-control {
+    width: 80%;
+    padding: 20px;
+    font-size: 18px;
+  }
+  .form-control::placeholder {
+    font-size: 20px; 
+  }
