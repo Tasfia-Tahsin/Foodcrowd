@@ -22,7 +22,7 @@ const handleSubmit = (e) => {
               <input
                 type='text'
                 className='form-control'
-                placeholder='Username'
+                placeholder='Name'
               />
             </div>
             <div className='form-group'>

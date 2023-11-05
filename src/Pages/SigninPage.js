@@ -48,7 +48,7 @@ function SigninPage() {
                 value={formData.username}
                 onChange={handleChange}
                 className='form-control'
-                placeholder='Username'
+                placeholder='Name'
               />
             </div>
             <div className='form-group'>

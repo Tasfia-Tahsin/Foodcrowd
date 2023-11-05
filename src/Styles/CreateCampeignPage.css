@@ -1,28 +1,33 @@
-.SigninPage {
+.CreateCampeignPage {
     text-align: center;
     background-color: #282c34;
     width: 100vw;
     height: 100vh;
+    position: relative;
+    overflow-y: auto;
+    
+  } 
+  
+  .createCampeigncenterdiv {
+  margin-top: 3%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  min-height: 0; /* Reset min-height to its default value */
+  margin-bottom: 150px; /* Add a 150px bottom margin */
+  background-color: #383c43;
+  color: orange;
+  font-size: 40px;
   }
   
-.signincenterdiv{
-    margin-top: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 40%;
-    height: 75%;
-    background-color: #383c43;
-    color: orange;
-    font-size: 40px;
-}
-.signinTitle{
+.createCampeignTitle{
     width: 30%;
     height: 20%;
     color: orange;
 }
-.signintext {
+.createCampeigntext {
     margin-top: 5%;
     color: orange;
     font-size: 40px;
@@ -32,7 +37,7 @@
   }
 
 
-  .signin-button {
+  .createCampeign-button {
     background-color: orange;
     color: #383c43;
     border: none;
@@ -41,16 +46,18 @@
     font-size: 30px;
   }
   
-  .signin-button:hover {
+  .createCampeign-button:hover {
     background-color: #ff7f00;
   }
 
-  .signin-form {
+  .createCampeign-form {
     text-align: center;
   }
   
   .form-group {
     margin: 25px;
+    background-color: #383c43;
+    
   }
   
   .form-control {
@@ -58,6 +65,12 @@
     padding: 20px;
     font-size: 20px;
   }
+  .form-control2 {
+    width: 86%;
+    padding: 20px;
+    font-size: 20px;
+  }
+  
   .form-control::placeholder {
     font-size: 20px; 
   }
