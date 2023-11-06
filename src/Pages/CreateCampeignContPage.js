@@ -91,7 +91,8 @@ function CreateCampeignContPage() {
     <>
       <div className='CreateCampeignContPage'>
         <Navbar />
-        <div className='createCampeignContcenterdiv'>
+        
+        <div className={popup ? 'blur' : 'createCampeignContcenterdiv'} >
           <div className='createCampeignConttext'>Create a new campaign </div>
           <form className='createCampeignCont-form' >
           <div className='form-group2'>
